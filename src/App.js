@@ -324,12 +324,12 @@ import {useState, useEffect} from 'react';
 import Header from './Header';
 import Posts from './Posts';
 import Users from './Users'
-import {Switch, Route, BrowserRouter} from 'react-router-dom';
+import {Switch, Route, BrowserRouter, HashRouter} from 'react-router-dom';
 
 function App() {
 
   return(
-    <BrowserRouter>
+    <HashRouter>
     <>
     <Header/>
 
@@ -339,7 +339,7 @@ function App() {
 
       </Switch>
     </>
-    </BrowserRouter>
+    </HashRouter>
   )
 
   
