@@ -334,8 +334,8 @@ function App() {
     <Header/>
 
     <Switch>
-      <Route path='routers/posts'><Posts/></Route>
-      <Route path='routers/users'><Users/></Route>
+      <Route path='/posts'><Posts/></Route>
+      <Route path='/users'><Users/></Route>
 
       </Switch>
     </>
