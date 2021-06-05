@@ -329,7 +329,7 @@ import {Switch, Route, BrowserRouter, HashRouter} from 'react-router-dom';
 function App() {
 
   return(
-    <HashRouter>
+    <BrowserRouter>
     <>
     <Header/>
 
@@ -339,7 +339,7 @@ function App() {
 
       </Switch>
     </>
-    </HashRouter>
+    </BrowserRouter>
   )
 
   
